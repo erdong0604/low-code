@@ -1,0 +1,46 @@
+{
+  "name": "low-code-h5",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:sandbox": "cross-env NODE_ENV=sandbox vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "node ./build/dev-component",
+    "build:com": "node ./build/build-component",
+    "com": "vue-cli-service build --target lib --name CusImage ./src/components/CusImage/views/index.vue"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "erdong-utils": "^1.0.6",
+    "puppeteer": "^10.1.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.7",
+    "vue-router": "^3.2.0",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.1.4",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "ip": "^1.1.5",
+    "mini-css-extract-plugin": "^0.11.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^6.1.1",
+    "prettier": "^2.2.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^3.1.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
